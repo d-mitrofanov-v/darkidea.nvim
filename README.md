@@ -1,0 +1,1 @@
+# darkidea.nvim

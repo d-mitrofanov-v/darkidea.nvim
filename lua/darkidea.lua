@@ -70,6 +70,8 @@ local get_groups = function()
 		NeoTreeFloatBorder = { fg = c.grey1 },
     NeoTreeDirectoryIcon = { fg = c.blue },
     MiniIconsAzure = { fg = c.blue },
+    FlashBackdrop = { fg = c.grey1 },
+    FlashLabel = { fg = c.white, bg = c.magenta },
 	}
 	return groups
 end

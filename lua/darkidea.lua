@@ -51,7 +51,7 @@ local get_groups = function()
 		LspInfoBorder = { fg = c.white },
 		WinSeparator = { fg = c.grey1 },
 		StatusLine = { bg = c.black },
-    DiagnosticOk = { fg = c.green },
+		DiagnosticOk = { fg = c.green },
 		DiagnosticHint = { fg = c.blue2 },
 		DiagnosticInfo = { fg = c.blue },
 		DiagnosticWarn = { fg = c.yellow },
@@ -68,10 +68,13 @@ local get_groups = function()
 		NeoTreeGitDeleted = { fg = c.red },
 		NeoTreeTitleBar = { bg = c.grey1 },
 		NeoTreeFloatBorder = { fg = c.grey1 },
-    NeoTreeDirectoryIcon = { fg = c.blue },
-    MiniIconsAzure = { fg = c.blue },
-    FlashBackdrop = { fg = c.grey1 },
-    FlashLabel = { fg = c.white, bg = c.magenta },
+		NeoTreeDirectoryIcon = { fg = c.blue },
+		MiniIconsAzure = { fg = c.blue },
+		FlashBackdrop = { fg = c.grey1 },
+		FlashLabel = { fg = c.white, bg = c.magenta },
+
+        SnacksPickerCursorLine = { bg = c.blue1 },
+        SnacksPickerListCursorLine = { bg = c.blue1 },
 	}
 	return groups
 end
